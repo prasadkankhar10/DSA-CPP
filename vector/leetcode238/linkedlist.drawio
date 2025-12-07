@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="linkedlist1" name="Linked List">
+    <mxGraphModel dx="1120" dy="720" grid="1" gridSize="10" guides="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Node 1 -->
+        <mxCell id="node1" value="10" style="shape=table;html=1;whiteSpace=wrap;container=1;">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node1_data" value="10" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node1">
+          <mxGeometry x="0" y="0" width="70" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node1_ptr" value="next" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node1">
+          <mxGeometry x="70" y="0" width="50" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 2 -->
+        <mxCell id="node2" value="20" style="shape=table;html=1;whiteSpace=wrap;container=1;">
+          <mxGeometry x="260" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node2_data" value="20" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node2">
+          <mxGeometry x="0" y="0" width="70" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node2_ptr" value="next" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node2">
+          <mxGeometry x="70" y="0" width="50" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Node 3 -->
+        <mxCell id="node3" value="30" style="shape=table;html=1;whiteSpace=wrap;container=1;">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node3_data" value="30" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node3">
+          <mxGeometry x="0" y="0" width="70" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="node3_ptr" value="next" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="node3">
+          <mxGeometry x="70" y="0" width="50" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- NULL -->
+        <mxCell id="nullnode" value="NULL" style="text;whiteSpace=wrap;html=1;fontSize=16;">
+          <mxGeometry x="620" y="138" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" edge="1" source="node1_ptr" target="node2" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow2" edge="1" source="node2_ptr" target="node3" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow3" edge="1" source="node3_ptr" target="nullnode" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
