@@ -28,7 +28,7 @@ int main(){
     productExceptSelf(nums);
     vector<int>ansm=productExceptSelf(nums);
     for(int i=0;i<ansm.size();i++){
-        cout<<ansm[i]<<" ";
+        cout<<ansm[i]<<"   ";
     }
 
 }
