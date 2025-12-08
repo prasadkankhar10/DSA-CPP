@@ -10,7 +10,7 @@ void inter(int array1[],int array2[], int size){
             }
         }
         if(c>0){
-            cout << array1[i] <<" ";
+            cout << array1[i] <<"   ";
         }
     }
 } 
