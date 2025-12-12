@@ -22,7 +22,7 @@ int binSearch(vector<int> arr,int traget){
 
 int main(){
     vector<int> arr= {10,20,30,40,50};
-    int tr=70;
+    int tr=40;
 
     cout<< binSearch(arr,tr);
 }
